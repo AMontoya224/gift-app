@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gift-app/static/css/main.d206a996.css",
-    "main.js": "/gift-app/static/js/main.9239a250.js",
+    "main.css": "/gift-app/static/css/main.4f295345.css",
+    "main.js": "/gift-app/static/js/main.65cbde63.js",
     "static/js/787.00121509.chunk.js": "/gift-app/static/js/787.00121509.chunk.js",
     "static/media/foto5.jpg": "/gift-app/static/media/foto5.dd2dbd7c91f66b3cc628.jpg",
     "static/media/foto4.jpg": "/gift-app/static/media/foto4.ee75b027d8cd8d9bc9be.jpg",
@@ -25,12 +25,12 @@
     "static/media/facebook.png": "/gift-app/static/media/facebook.905484fd56a70fadaa06.png",
     "static/media/linkedin.png": "/gift-app/static/media/linkedin.1aa2974562342076686c.png",
     "index.html": "/gift-app/index.html",
-    "main.d206a996.css.map": "/gift-app/static/css/main.d206a996.css.map",
-    "main.9239a250.js.map": "/gift-app/static/js/main.9239a250.js.map",
+    "main.4f295345.css.map": "/gift-app/static/css/main.4f295345.css.map",
+    "main.65cbde63.js.map": "/gift-app/static/js/main.65cbde63.js.map",
     "787.00121509.chunk.js.map": "/gift-app/static/js/787.00121509.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d206a996.css",
-    "static/js/main.9239a250.js"
+    "static/css/main.4f295345.css",
+    "static/js/main.65cbde63.js"
   ]
 }
