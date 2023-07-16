@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/gift-app/static/css/main.d206a996.css",
+    "main.js": "/gift-app/static/js/main.9239a250.js",
+    "static/js/787.00121509.chunk.js": "/gift-app/static/js/787.00121509.chunk.js",
+    "static/media/foto5.jpg": "/gift-app/static/media/foto5.dd2dbd7c91f66b3cc628.jpg",
+    "static/media/foto4.jpg": "/gift-app/static/media/foto4.ee75b027d8cd8d9bc9be.jpg",
+    "static/media/foto3.jpg": "/gift-app/static/media/foto3.8202d1beb2fd0c268c47.jpg",
+    "static/media/foto0.jpg": "/gift-app/static/media/foto0.bbfcdcef2915ec8b5cf3.jpg",
+    "static/media/perfil.jpg": "/gift-app/static/media/perfil.f305adccac124a63d167.jpg",
+    "static/media/foto6.jpg": "/gift-app/static/media/foto6.9a8ff821b796698959d7.jpg",
+    "static/media/instagram.png": "/gift-app/static/media/instagram.0963b7a591227164566c.png",
+    "static/media/foto13.jpg": "/gift-app/static/media/foto13.d9084493a10506371adc.jpg",
+    "static/media/foto16.jpg": "/gift-app/static/media/foto16.fed9df89d51b38ce5d91.jpg",
+    "static/media/foto14.jpg": "/gift-app/static/media/foto14.a9c298d00bda73fce778.jpg",
+    "static/media/foto2.jpg": "/gift-app/static/media/foto2.67f85233b6705474b022.jpg",
+    "static/media/foto15.jpg": "/gift-app/static/media/foto15.317034d496c73f86ebce.jpg",
+    "static/media/foto8.jpg": "/gift-app/static/media/foto8.de6d81a11cd440c991fa.jpg",
+    "static/media/foto11.jpg": "/gift-app/static/media/foto11.3cbca6d2fee60476fd24.jpg",
+    "static/media/foto7.jpg": "/gift-app/static/media/foto7.d6e8af45a7d5dd219b6a.jpg",
+    "static/media/foto12.jpg": "/gift-app/static/media/foto12.0b30f0bb4da2ea229498.jpg",
+    "static/media/foto1.jpg": "/gift-app/static/media/foto1.2b64c8bf781bc502dc4e.jpg",
+    "static/media/foto10.jpg": "/gift-app/static/media/foto10.3c16294820bc3c4ba428.jpg",
+    "static/media/foto9.jpg": "/gift-app/static/media/foto9.91a43798f1f34f9a5d62.jpg",
+    "static/media/facebook.png": "/gift-app/static/media/facebook.905484fd56a70fadaa06.png",
+    "static/media/linkedin.png": "/gift-app/static/media/linkedin.1aa2974562342076686c.png",
+    "index.html": "/gift-app/index.html",
+    "main.d206a996.css.map": "/gift-app/static/css/main.d206a996.css.map",
+    "main.9239a250.js.map": "/gift-app/static/js/main.9239a250.js.map",
+    "787.00121509.chunk.js.map": "/gift-app/static/js/787.00121509.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d206a996.css",
+    "static/js/main.9239a250.js"
+  ]
+}
