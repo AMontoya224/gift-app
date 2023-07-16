@@ -7,6 +7,7 @@ function App() {
   const [date, setDate] = useState( '' );
   const [confirm, setConfirm] = useState( true );
   const [data, setData] = useState( false );
+  const [selectLan, setSelectLan] = useState( false );
 
   const onHandle = e => {
     setDate( e.target.value );
@@ -14,19 +15,23 @@ function App() {
 
   const onSubmit = e => {
     e.preventDefault();
-    (date === '2021-12-21' ? setConfirm( false ) : alert('error'))
+    (date === '2021-12-21' ? setConfirm( false ) : alert('Fecha incorrecta'))
+  };
+
+  const onSelectLan = newSelect => {
+    setSelectLan( newSelect );
   };
 
   useEffect( ()=>{
     axios.get( 'https://api.npoint.io/b96babeb4a83400b2232' )
       .then( res=>{
         setData( res.data );
-        console.log(res.data)
       });
   },[] );
 
   return (
     <div className="App">
+      <title>Albúm del Recuerdo</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
       {confirm ? 
       <div className='login'>
@@ -38,7 +43,7 @@ function App() {
         </form>
       </div>
       :
-      data ? <Home setConfirm={setConfirm} data={data}/> : <></>}
+      data ? <Home setConfirm={setConfirm} data={data} selectLan={selectLan} onSelectLan={onSelectLan}/> : <></>}
     </div>
   );
 }

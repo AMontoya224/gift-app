@@ -35,7 +35,7 @@ header > div > div{
     align-items: center;
 }
 
-header > div > div > form > button{
+header > div > div > button{
     background: transparent;
     color: white;
     border: none;
@@ -43,11 +43,11 @@ header > div > div > form > button{
     cursor: pointer;
     transition: all 250ms ease;
 }
-header > div > div > form > button:hover{
+header > div > div > button:hover{
     opacity: 0.7;
 }
 
-header > div > div > form > .exit{
+header > div > div > form > button{
     background: rgb(220, 16, 16);
     color: white;
     border-radius: 5px;
@@ -57,7 +57,7 @@ header > div > div > form > .exit{
     cursor: pointer;
     transition: all 250ms ease;
 }
-header > div > div > form > .exit:hover{
+header > div > div > form > button:hover{
     background: rgb(199, 13, 13);
 }
 
@@ -85,6 +85,7 @@ header > div > p{
 }
 
 .container > div{
+    position: relative;
     background:#ffc;
     padding: 30px;
     margin: 30px;
@@ -152,10 +153,34 @@ header > div > p{
     opacity: 0.7;
 }
 
+.container > div > .exit{
+    display: none;
+}
+
+.container > div > .exit.active{
+    display: grid;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
 .container > div > img{
     display: none;
-    width: 150px;
-    border-radius: 3px;
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 5px;
+    border: 8px solid white;
+    transition: all 250ms ease;
+}
+.container > div > img.active{
+    display: grid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 /*FOOTER*/
