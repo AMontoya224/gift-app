@@ -1,0 +1,234 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto:wght@100;300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0; 
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
+}
+
+/*HEADER*/
+header{
+    height: 250px;
+}
+
+header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    padding: 10px 30px 5px 30px;
+    background: rgb(216, 112, 147);
+}
+
+header > div > div{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+header > div > div > form > button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+header > div > div > form > button:hover{
+    opacity: 0.7;
+}
+
+header > div > div > form > .exit{
+    background: rgb(220, 16, 16);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+header > div > div > form > .exit:hover{
+    background: rgb(199, 13, 13);
+}
+
+header > div > h1{
+    margin: 0;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+header > div > p{
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(230, 230, 230);
+    font-size: 18px;
+}
+
+/*MAIN*/
+.container{
+    /*border: 1px solid blue;
+    margin-right: 200px;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.container > div{
+    background:#ffc;
+    padding: 30px;
+    margin: 30px;
+    max-width: 400px;
+    min-width: 250px;
+    max-height: 400px;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    display: inline-block;
+    transition: all 250ms ease;
+}
+.container > div:nth-child(even){
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+}
+.container > div:nth-child(2n){
+    transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: #cfc;
+}
+.container > div:nth-child(5n){
+    transform: rotate(5deg);
+    position: relative;
+    top: -10px;
+    background: #ccf;
+}
+.container > div:nth-child(7n){
+    transform: rotate(-2deg);
+    position: relative;
+    top: -10px;
+    background: rgb(223, 168, 207);
+}
+.container > div:hover{
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+.container > div > h3{
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container > div > h5{
+    font-size: 16px;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.container > div > p{
+    margin: 30px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+}
+
+.container > div > span{
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+.container > div > span:hover{
+    opacity: 0.7;
+}
+
+.container > div > img{
+    display: none;
+    width: 150px;
+    border-radius: 3px;
+}
+
+/*FOOTER*/
+footer{
+    margin: 40px 0 0 0;
+    padding: 2vw 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c9c9c9;
+}
+
+footer > .autor{
+    flex: 1;
+    width: 100px;
+    border-radius: 50%;
+    
+    cursor: pointer;
+}
+
+footer > .informacion{
+    flex: 3;
+    text-align: center;
+}
+
+.informacion > h3{
+    font-size: 32px;
+}
+
+.informacion > p{
+    font-size: 16px;
+}
+
+a > .link{
+    width: 50px;
+    margin: 20px;
+    transition: all 250ms ease;
+}
+a > .link:hover{
+    transform: scale(1.25);
+}
+
+
+@media only screen and (max-width: 960px){
+    /*HEADER*/
+    header{
+        height: 200px;
+    }
+
+    header > div{
+        padding: 10px 20px 5px 20px;
+    }
+
+    header > div > div{
+        gap: 20px;
+    }
+
+    header > div > div > form > button{
+        font-size: 18px;
+    }
+
+    header > div > h1{
+        font-size: 30px;
+    }
+    
+    header > div > p{
+        font-size: 14px;
+    }
+
+    /*MAIN*/
+    .container{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
