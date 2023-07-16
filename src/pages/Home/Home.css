@@ -256,4 +256,9 @@ a > .link:hover{
         padding: 0;
         text-align: center;
     }
+
+    .container > div{
+        max-width: 350px;
+        min-width: 200px;
+    }
 }
